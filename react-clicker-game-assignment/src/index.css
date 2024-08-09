@@ -1,0 +1,68 @@
+.header {
+  font-family: monospace;
+  color: tomato;
+  display: flex;
+  justify-content: center;
+}
+
+.clickMe {
+  font-family: monospace;
+  color: teal;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  margin-left: 36rem;
+}
+
+.clicks {
+  font-family: monospace;
+  color: teal;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  margin-left: 0rem;
+}
+
+.cps {
+  font-family: monospace;
+  color: teal;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  margin-left: 0rem;
+}
+
+.upgrades {
+  font-family: monospace;
+  color: teal;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  margin-left: 0rem;
+  margin-left: 24rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.clickMe:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}
+
+.upgrades:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}
+
+.clicks:hover {
+  background-color: #45a049;
+}
+
+.cps:hover {
+  background-color: #45a049;
+}
+
+.clickMe::view-transition {
+  box-shadow: black;
+  cursor: pointer;
+}
